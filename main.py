@@ -8,8 +8,6 @@ load_dotenv(find_dotenv())
 REFRESH_TOKEN = os.environ.get("REFRESH_TOKEN").strip()
 CLIENT_ID = os.environ.get("CLIENT_ID").strip()
 CLIENT_SECRET = os.environ.get("CLIENT_SECRET").strip()
-DISCOVER_WEEKLY_ID = os.environ.get("DISCOVER_WEEKLY_ID").strip()
-SAVE_TO_ID = os.environ.get("SAVE_TO_ID").strip()
 
 DISCOVER_WK_IDS = [
   os.environ.get("DISCOVER_WK_ID_0").strip(),
