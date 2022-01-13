@@ -26,5 +26,11 @@ jobs:
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
-          DISCOVER_WEEKLY_ID: ${{ secrets.DISCOVER_WEEKLY_ID }}
-          SAVE_TO_ID: ${{ secrets.SAVE_TO_ID }}
+          DISCOVER_WK_ID_0: ${{ secrets.DISCOVER_WK_ID_0 }}
+          DESTINATION_ID_0: ${{ secrets.DESTINATION_ID_0 }}
+          DISCOVER_WK_ID_1: ${{ secrets.DISCOVER_WK_ID_1 }}
+          DESTINATION_ID_1: ${{ secrets.DESTINATION_ID_1 }}
+          DISCOVER_WK_ID_2: ${{ secrets.DISCOVER_WK_ID_2 }}
+          DESTINATION_ID_2: ${{ secrets.DESTINATION_ID_2 }}
+          DISCOVER_WK_ID_3: ${{ secrets.DISCOVER_WK_ID_3 }}
+          DESTINATION_ID_3: ${{ secrets.DESTINATION_ID_3 }}
